@@ -16,15 +16,18 @@ Shows completed tasks with options to mark tasks as incomplete, edit, or delete 
 
 ## Available Scripts
 
-In the ### `project directory`, you can run:
+In the `project directory`, you can run:
 1. First Clone the repository:
 ### `https://github.com/madhurbajpai/task.git`
 2. Next you should change the directory
 ### `cd task`
 3. Next, you should install all the dependencies
-### `npm i react-router-dom`
+### `npm i`
 4. After that following command in the ### `project directory`
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+Here is the Demo link of the deployed website
+`https://manage-tasks-a2z.vercel.app/`
