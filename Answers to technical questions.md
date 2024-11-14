@@ -1,5 +1,5 @@
 **`Ques 1. How long did you spend on the coding test? `**\
-**`Ans.`** I spent around "7-8 hours" on the coding. It included setting up the environment, planning, implementing the required features and styling the components.
+**`Ans.`** I spent around "12 hours" on the coding. It included setting up the environment, planning, implementing the required features and styling the components.
 
 
 **`Ques 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.`**\
