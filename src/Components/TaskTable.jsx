@@ -35,8 +35,9 @@ const TaskTable = () => {
     const matchesPriority = priorityFilter === 'All' || task.priority === priorityFilter;
     const matchesStatus = 
       statusFilter === 'All' ||
-      (statusFilter === 'Completed' && task.completed) ||
-      (statusFilter === 'Pending' && !task.completed);
+      (statusFilter === 'Completed' && task?.completed) ||
+      (statusFilter === 'Pending' && !task?.completed);
+
     return matchesSearch && matchesPriority && matchesStatus;
   });
 
