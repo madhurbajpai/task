@@ -1,0 +1,6 @@
+.cards{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+.completed-task-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .task-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border: 2px solid #2ecc71;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .task-details p {
+    margin: 0;
+  }
+  
+  button {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
+  .edit-task-form button {
+    width: fit-content;
+  }
+  

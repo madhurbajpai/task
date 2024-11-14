@@ -1,0 +1,64 @@
+.task-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .task-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    margin: 0 2px;
+    padding: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  button[disabled] {
+    background-color: #7f8c8d;
+    cursor: not-allowed;
+  }
+
+  .search:focus {
+    background-color: rgba(187, 160, 223, 0.237);
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+  }
+
+  .search{
+    border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: rgba(180, 147, 222, 0.205);
+  box-shadow: inset 2px 5px 10px rgba(180, 147, 222, 0.768);
+  transition: 300ms ease-in-out;
+  }
+
+  
